@@ -1,0 +1,538 @@
+# Copyright (C) 2013 BP My Home
+# This file is distributed under the same license as the BP My Home package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BP My Home 2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bp-my-home\n"
+"POT-Creation-Date: 2013-12-13 00:26:00+00:00\n"
+"PO-Revision-Date: 2013-12-13 01:28+0100\n"
+"Last-Translator: imath <mathchristo@yahoo.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bp-my-home.php:62 bp-my-home.php:64
+msgid "Cheatin&#8217; huh?"
+msgstr "Alors on triche ?"
+
+#: bp-my-home.php:113
+msgid "Home"
+msgstr "Accueil"
+
+#: bp-my-home.php:114
+msgid "My Home"
+msgstr "Mon Accueil"
+
+#: bp-my-home.php:116
+msgid "My Widgets"
+msgstr "Mes Widgets"
+
+#: bp-my-home.php:118
+msgid "My Settings"
+msgstr "Mes Réglages"
+
+#: includes/admin/admin.php:117 includes/admin/admin.php:118
+msgid "BP My Home options"
+msgstr "Options de BP My Home"
+
+#: includes/admin/admin.php:203
+msgid "BP My Home Widgets"
+msgstr "Widgets BP My Home"
+
+#: includes/admin/admin.php:206
+msgid ""
+"List of available widgets you can drag (only one instance of each) in one of "
+"the two BP MY Home sidebars on the right"
+msgstr ""
+"Liste des widgets disponibles que vous pouvez glisser déposer (une seule "
+"instance de chaque) dans l&#39;une des deux sidebars BP My Home de droite."
+
+#: includes/admin/admin.php:267
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/admin/admin.php:268
+msgid "Manage Widgets"
+msgstr "Manager les Widgets"
+
+#: includes/admin/settings.php:15
+msgid "Main Settings"
+msgstr "Réglages principaux"
+
+#: includes/admin/settings.php:20
+msgid "Customization"
+msgstr "Personnalisation"
+
+#: includes/admin/settings.php:40
+msgid ""
+"Disable BP my Home as the default component of member&#39;s profile area"
+msgstr ""
+"Désactiver BP My Home en tant que composant par défaut des pages de profil "
+"des membres."
+
+#: includes/admin/settings.php:46
+msgid ""
+"Do not allow users to set their profile page as the landing page of this "
+"website"
+msgstr ""
+"Ne pas autoriser les utilisateurs à activer leur page d&#39;accueil en tant "
+"que landing page du site."
+
+#: includes/admin/settings.php:52
+msgid "Disable the Bookmark button in page or posts"
+msgstr "Désactiver le bouton Favoris ajouté aux pages et articles"
+
+#: includes/admin/settings.php:58
+msgid "Disable the use of the Subscribe button in templates"
+msgstr ""
+"Désactiver l&#39;utilisation du bouton S&#39;abonner dans les templates"
+
+#: includes/admin/settings.php:64
+msgid "Disable The admin-widget js replacement"
+msgstr ""
+"Désactiver le remplacement du javascript natif dans l&#39;interface de "
+"gestion des widgets"
+
+#: includes/admin/settings.php:73
+msgid "Custom slug for the component main url"
+msgstr "Slug personnalisé pour l&#39;url principale du composant"
+
+#: includes/admin/settings.php:79
+msgid "Custom name for the component"
+msgstr "Nom personnalisé pour le composant"
+
+#: includes/admin/settings.php:85
+msgid "Custom name for main nav"
+msgstr "Nom personnalisé pour la navigation principale"
+
+#: includes/admin/settings.php:91
+msgid "Custom slug for the widgets subnav"
+msgstr "Slug personnalisé pour la sous navigation Widgets"
+
+#: includes/admin/settings.php:97
+msgid "Custom name for the widgets subnav"
+msgstr "Nom personnalisé pour la sous navigation Widgets"
+
+#: includes/admin/settings.php:103
+msgid "Custom slug for the user settings subnav"
+msgstr "Slug personnalisé pour la sous navigation Réglages"
+
+#: includes/admin/settings.php:109
+msgid "Custom name for the user settings subnav"
+msgstr "Nom personnalisé pour la sous navigation Réglages"
+
+#: includes/admin/settings.php:146
+msgid "Set BP My Home !"
+msgstr "Réglez BP My Home !"
+
+#: includes/admin/settings.php:147
+msgid ""
+"You need to set widgets ? Since version 2.0, BP My Home uses the <a href=\"%s"
+"\">WordPress built-in Widgets manager</a>."
+msgstr ""
+"Vous avez besoin de paramétrer les widgets ? Depuis sa version 2.0, BP My "
+"Home utilise l&#39;interface <a href=\"%s\">WordPress native</a>."
+
+#: includes/admin/settings.php:161
+msgid "Customize BP My Home !"
+msgstr "Personnalisez BP My Home !"
+
+#: includes/admin/settings.php:162
+msgid ""
+"If you do not like the default slugs or names, you can use theses options to "
+"make BP My Home a little more customized. Make sure to avoid the use of "
+"other BuddyPress components."
+msgstr ""
+"Si vous n&#39;appréciez pas les noms ou slugs par défaut, vous pouvez "
+"utiliser les options suivantes en vue de personnaliser un peu plus BP My "
+"Home. Faites en sorte de ne pas choisir des slugs on noms d&#39;autres "
+"composants BuddyPress activés."
+
+#: includes/admin/settings.php:178 includes/admin/settings.php:199
+#: includes/admin/settings.php:220 includes/admin/settings.php:241
+#: includes/admin/settings.php:264
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/settings.php:182 includes/admin/settings.php:203
+#: includes/admin/settings.php:224 includes/admin/settings.php:245
+#: includes/admin/settings.php:268
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/settings.php:184
+msgid ""
+"BP My home, by default, is replacing the activity or profile component as "
+"the default member&#39;s component. Setting this option to Yes will disable "
+"this feature and the default navigation will be the activity or profile one."
+msgstr ""
+"BP My Home, par défaut, remplace le composant activité ou profile en tant "
+"que composant par défaut de la zone du membre. En choisissant Oui, vous "
+"désactivez ce comportement et la navigation par défaut redevient les "
+"activités ou le profile."
+
+#: includes/admin/settings.php:205
+msgid ""
+"BP My home, by default, allow users to set their BP My Home page as the "
+"landing page of your website. Setting this option to Yes will deactivate "
+"this feature."
+msgstr ""
+"BP My Home, par défaut, autorise vos membres à définir leur page BP My Home "
+"comme page d&#39;accueil de votre site. En cochant le choix Oui, vous "
+"désactivez ce comportement."
+
+#: includes/admin/settings.php:226
+msgid ""
+"BP My home, by default, is adding a Bookmark button at the end of your posts "
+"or pages while viewing them in their singular templates. You can disable "
+"this feature by setting this option to Yes. If you did so, yon can still add "
+"a bookmark button using this template tag <code>&lt;?php if( function_exists"
+"( &#39;the_bpmh_bkmks_tag&#39; ) ) the_bpmh_bkmks_tag() ; ?&gt;</code> in "
+"the single or page template."
+msgstr ""
+"BP My Home, par défaut, ajoute un bouton Favori à la suite du contenu des "
+"pages ou des articles lorsqu'ils sont consultés dans leur template singular. "
+"Vous pouvez désactivez cette fonctionnalité en optant pour le choix Oui. Si "
+"c&#39;est le choix que vous avez retenu, vous pouvez toujours ajouter un "
+"bouton Favori en maîtrisant plus son positionnement au sein des templates "
+"single ou page via l&#39;utilisation de ce template tag <code>&lt;?php if"
+"( function_exists( &#39;the_bpmh_bkmks_tag&#39; ) ) the_bpmh_bkmks_tag() ; ?"
+"&gt;</code>"
+
+#: includes/admin/settings.php:247
+msgid ""
+"If this tag <code>&lt;?php if( function_exists( &#39;"
+"the_bpmh_rss_button&#39; ) ) the_bpmh_rss_button() ; ?&gt;</code> is added "
+"to your category, archive, single or search template, then BP My home, by "
+"default, will add a Subscribe button to let your members easily add some of "
+"your feeds to the rss reader widget. You can disable this feature by setting "
+"this option to Yes."
+msgstr ""
+"Si ce tag <code>&lt;?php if( function_exists( &#39;"
+"the_bpmh_rss_button&#39; ) ) the_bpmh_rss_button() ; ?&gt;</code> est ajouté "
+"aux templates category, archive, single ou search, alors BP My Home, par "
+"défaut, ajoutera un bouton S&#39;abonner afin de simplifier l&#39;"
+"enrestrement de nouveaux flux dans leur Widget de lecture RSS. Vous pouvez "
+"désactiver ce comportement en optant pour Oui."
+
+#: includes/admin/settings.php:270
+msgid ""
+"BP My home, by default, is replacing the core admin-widget.js script by its "
+"own, and extends the widget admin area to ease the process of managing BP My "
+"Home widgets. Setting this option to Yes will disable this feature, and you "
+"will need to make sure only one instance of each of the BPMH Widgets is in "
+"the BPMH Sidebars and only these sidebars."
+msgstr ""
+"BP My Home, par défaut, remplace le javascript natif admin-widget.js par son "
+"propre javascript et étend l&#39;administration des widgets pour faciliter "
+"la gestion des widgets BP My Home. En choisissant le choix Oui, vous "
+"désactivez ce remplacement, mais vous aurez à faire en sorte de ne pas avoir "
+"plus d&#39;une instance de widget BP My Home dans les sidebars de BP My Home "
+"et vous veillerez à n&#39;utiliser que ces sidebars pour les widgets BP My "
+"Home."
+
+#: includes/admin/settings.php:467
+msgid "BP My Home Settings"
+msgstr "Réglages de BP My Home"
+
+#: includes/admin/settings.php:479
+msgid "Save Changes"
+msgstr "Enregistrer les réglages"
+
+#: includes/admin/settings.php:523
+msgid "Settings saved"
+msgstr "Réglages enregistrés"
+
+#: includes/ajax.php:57
+msgid "Oops, something went wrong !"
+msgstr "Oh la la la, un problème est survenu !"
+
+#: includes/ajax.php:109 includes/ajax.php:164
+msgid "Error, try to refresh the page before trying again"
+msgstr "Erreur, merci de rafraîchir la page avant de renouveler."
+
+#: includes/ajax.php:113
+msgid "View All Bookmarks"
+msgstr "Voir tous les favoris"
+
+#: includes/ajax.php:114 includes/filters.php:150 includes/functions.php:759
+msgid "Bookmarked"
+msgstr "Mis en favoris"
+
+#: includes/ajax.php:168
+msgid "View All Feeds"
+msgstr "Voir tous les flux"
+
+#: includes/ajax.php:169 includes/functions.php:759
+msgid "Subscribed"
+msgstr "Abonné"
+
+#: includes/filters.php:154
+msgid "Bookmark"
+msgstr "Favoris"
+
+#: includes/functions.php:442
+msgid "Sorry, the administrator has not activated any widget so far."
+msgstr "Désolé, l&#39;administrateur n&#39;a pas encore activé de widget."
+
+#: includes/functions.php:748
+msgid "Results for "
+msgstr "Résultats pour"
+
+#: includes/functions.php:764
+msgid "Subscribe"
+msgstr "S&#39;abonner"
+
+#: includes/functions.php:789
+msgid "<h5>Error:</h5> Oops something went wrong with this feed %s"
+msgstr "<h5>Erreur:</h5> Oops un problème est survenu avec ce flux rss %s"
+
+#: includes/functions.php:795
+msgid "<h5>Error:</h5> No items were found in this feed %s"
+msgstr "<h5>Erreur:</h5> aucune donnée disponible pour ce flux rss %s"
+
+#: includes/functions.php:804
+msgid "Go to:"
+msgstr "Aller à:"
+
+#: includes/functions.php:946
+msgid "On :"
+msgstr "Sur :"
+
+#: includes/functions.php:946 includes/widgets.php:172
+msgid "Go to : %s"
+msgstr "Aller à : %S"
+
+#: includes/functions.php:947
+msgid "Show/hide comment content"
+msgstr "Montre/masquer le commentaire"
+
+#: includes/functions.php:947
+msgid "View comment"
+msgstr "Voir le commentaire"
+
+#: includes/functions.php:950
+msgid "Comments Count"
+msgstr "Nombre de commentaires"
+
+#: includes/functions.php:953
+msgid "Follow Up"
+msgstr "Suivi des commentaires"
+
+#: includes/functions.php:957
+msgid "Published"
+msgstr "Publié"
+
+#: includes/functions.php:959
+msgid "Awaiting moderation"
+msgstr "En attente de modération"
+
+#: includes/sub-actions.php:25
+msgid "You do not have access to this page."
+msgstr "Vous n&#39;avez pas accès à cette page."
+
+#: includes/sub-actions.php:131
+msgid "Settings saved successfully"
+msgstr "Réglages enregistrés avec succès"
+
+#: includes/template.php:146
+msgid "Uncheck the widget(s) you want to disable."
+msgstr "Désactivez le ou les widgets que vous ne souhaitez pas utiliser"
+
+#: includes/template.php:173
+msgid "Set your profile page as this website landing page."
+msgstr "Faire de votre page de membre la page d&#39;accueil de ce site"
+
+#: includes/template.php:176
+msgid "Activate"
+msgstr "Activer"
+
+#: includes/template.php:182
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+#: includes/widgets.php:21
+msgid "BPMH Left Column"
+msgstr "BPMH Colonne de gauche"
+
+#: includes/widgets.php:23
+msgid "Left column of BP My Home user&#39;s page"
+msgstr "La colonne de gauche pour accueillir les widgets des utilisateurs."
+
+#: includes/widgets.php:31
+msgid "BPMH Right Column"
+msgstr "BPMH Colonne de droite"
+
+#: includes/widgets.php:33
+msgid "Right column of BP My Home user&#39;s page"
+msgstr "La colonne de droite pour accueillir les widgets des utilisateurs"
+
+#: includes/widgets.php:55
+msgid "Stores user&#39;s bookmarks"
+msgstr "Gestionnaire de favoris"
+
+#: includes/widgets.php:56
+msgctxt "widget name"
+msgid "(BPMH) Bookmark"
+msgstr "(BPMH) Bookmark"
+
+#: includes/widgets.php:101 includes/widgets.php:210
+msgid "Bookmarks"
+msgstr "Favoris"
+
+#: includes/widgets.php:110 includes/widgets.php:536
+msgid "Configure"
+msgstr "Configurer"
+
+#: includes/widgets.php:116 includes/widgets.php:405 includes/widgets.php:542
+#: includes/widgets.php:839
+msgid "Content is only available in user&#39;s page"
+msgstr "Le contenu n&#39;est disponible que sur la page utilisateur"
+
+#: includes/widgets.php:148 includes/widgets.php:437 includes/widgets.php:574
+#: includes/widgets.php:871
+msgid "Title:"
+msgstr "Titre:"
+
+#: includes/widgets.php:181
+msgid ""
+"To add new bookmarks, you can hover this box header to activate the "
+"configure link"
+msgstr ""
+"Pour ajouter de nouveaux favoris, vous pouvez survoler le header de cette "
+"box afin de révéler le lien pour configurer vos réglages. "
+
+#: includes/widgets.php:215 includes/widgets.php:651
+msgid "Settings for %s"
+msgstr "Réglages pour %s"
+
+#: includes/widgets.php:218
+msgid "Add a new bookmark"
+msgstr "Ajouter un nouveau favori"
+
+#: includes/widgets.php:221 includes/widgets.php:237 includes/widgets.php:657
+#: includes/widgets.php:673
+msgid "Alias"
+msgstr "Alias"
+
+#: includes/widgets.php:225
+msgid "Link"
+msgstr "Lien"
+
+#: includes/widgets.php:232
+msgid "Delete bookmarks"
+msgstr "Supprimer des favoris"
+
+#: includes/widgets.php:238 includes/widgets.php:674
+msgid "Select to delete"
+msgstr "Activer pour supprimer"
+
+#: includes/widgets.php:257 includes/widgets.php:693
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/widgets.php:323 includes/widgets.php:759
+msgid "Widget settings saved successfully"
+msgstr "Réglages du widget enregistrés avec succès"
+
+#: includes/widgets.php:341
+msgid "A small Notepad for your members"
+msgstr "Petit outil de prise de note"
+
+#: includes/widgets.php:342
+msgctxt "widget name"
+msgid "(BPMH) Notepad"
+msgstr "(BPMH) Notepad"
+
+#: includes/widgets.php:368
+msgid "Click to edit"
+msgstr "Cliquer pour modifier"
+
+#: includes/widgets.php:394
+msgid "Notepad"
+msgstr "Notepad"
+
+#: includes/widgets.php:474
+msgid "An RSS reader for your members"
+msgstr "Un lecteur de flux RSS pour vos membres"
+
+#: includes/widgets.php:475
+msgctxt "widget name"
+msgid "(BPMH) Rss Reader"
+msgstr "(BPMH) Rss Reader"
+
+#: includes/widgets.php:500
+msgid "Refreshing the feed, please wait.."
+msgstr "Chargement du flux en cours..."
+
+#: includes/widgets.php:527 includes/widgets.php:646
+msgid "Rss Reader"
+msgstr "Rss Reader"
+
+#: includes/widgets.php:599
+msgid "all"
+msgstr "tous"
+
+#: includes/widgets.php:618
+msgid ""
+"To add new feeds, you can hover this box header to activate the configure "
+"link"
+msgstr ""
+"Pour ajouter un nouveau flux, vous pouvez survoler le header de cette box "
+"pour révéler le lien de configuration"
+
+#: includes/widgets.php:654
+msgid "Add a new feed"
+msgstr "Ajouter un nouveau flux"
+
+#: includes/widgets.php:661
+msgid "Feed"
+msgstr "Flux"
+
+#: includes/widgets.php:668
+msgid "Delete feeds"
+msgstr "Supprimer des flux"
+
+#: includes/widgets.php:777
+msgid "Let your members follow their latest comments"
+msgstr "Permet à vos membres de suivre leurs commentaires"
+
+#: includes/widgets.php:778
+msgctxt "widget name"
+msgid "(BPMH) Comments"
+msgstr "(BPMH) Comments"
+
+#: includes/widgets.php:802
+msgid "Loading the comments, please wait.."
+msgstr "Chargement des commentaires en cours.."
+
+#: includes/widgets.php:828
+msgid "Comments follow up"
+msgstr "Suivi de commentaires"
+
+#: includes/widgets.php:902
+msgid "Select the blog"
+msgstr "Choisir le blog"
+
+#. Plugin Name of the plugin/theme
+msgid "BP My Home"
+msgstr "BP My Home"
+
+#. Plugin URI of the plugin/theme
+msgid "http://imathi.eu/tag/bp-my-home/"
+msgstr "http://imathi.eu/tag/bp-my-home/"
+
+#. Description of the plugin/theme
+msgid "BP My Home adds a widgetized area for your BuddyPress members."
+msgstr "BP My Home ajoute une zone widgetisable pour vos membres BuddyPress."
+
+#. Author of the plugin/theme
+msgid "imath"
+msgstr "imath"
+
+#. Author URI of the plugin/theme
+msgid "http://imathi.eu/"
+msgstr "http://imathi.eu/"

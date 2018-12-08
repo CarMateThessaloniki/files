@@ -1,0 +1,325 @@
+/* Admin CSS - 06-12-2013 */
+
+/* Admin Settings Page */
+div.settings { display:block; position:relative; width:950px; height:1100px; border:0px solid #E2EAED; background:#FFFFFF; margin: 0px 0 0 10px;}
+div.settings-sidebar { display: block; width: 146px; height:1100px; float: left; border-right: 1px solid #E2EAED; }
+div.settings-content { display: block; width: 780px; height:1100px; float: right; border: 1px solid #FFFFFF; }
+
+div.settings h2.settings{ padding:0px; margin:0px; margin-top:-5px; line-height:23px; }
+
+p#btnholder { text-align:center; padding:0px; margin:20px 0px 20px 0px; }
+
+table.form-table tr td { line-height: normal; }
+
+p#reset_featured {text-align:center; cursor:pointer; }
+p#reset_featured:hover { color:#21759B; }
+span.gray { color:#999999; }
+.insertpost { cursor:pointer; }
+
+.slider { width:170px; margin-right:15px; margin-top:5px; float:left;}
+.clear { clear: both; }
+
+
+div#icon_iire { float:left; height:32px; width:32px; margin: 7px 8px 0 0; background-image: url('../includes/images/icon_iire_logo.png'); }
+
+li#toplevel_page_iire_admin_social_home div.wp-menu-image { background-image: url('../includes/images/icon_iire_logo28.png'); }
+li#toplevel_page_iire_admin_social_home div.wp-menu-image a img { display:none; }
+
+
+/* Widget 680 */
+div#chooseicons { width:auto; min-width:300px; height:auto; padding:10px; margin-top:10px; background-color:#EDEDED; }
+div#chooseicons.choosedark { background-color:#666666; }
+div#codepreview { width:auto; min-width:300px; min-height:235px; height:auto; background:#FFFFCC; padding:10px; }	
+
+img.select { display:inline; }
+select { display:inline; }
+select.display { width:70px; }
+input.inline { display:inline; }
+
+div#links { width:930px; min-height:250px; height:auto; padding:10px; background-color:#FFFFFF; }
+.ui-accordian .ui-accordian-content { padding: 1em 1em; }
+
+div#trash { background-image: url('../includes/images/trash.png'); background-repeat:no-repeat; background-position: center; width:64px; height:64px; position:absolute; top:10px; right:10px; z-index:999; border:#AAAAAA 1px dashed; }
+
+
+div#footer { border-top-width: 0px; }
+span#footer-thankyou { display: none; }
+
+#wpfooter { border-top-width: 0px; }
+
+.w25 { width: 25px; }
+.w30 { width: 30px; }
+.w35 { width: 35px; }
+.w40 { width: 40px; }
+.w50 { width: 50px; }
+.w60 { width: 60px; }
+.w70 { width: 70px; }
+.w80 { width: 80px; }
+.w95 { width: 95px; }
+.w100 { width: 100px; }
+.w120 { width: 120px; }
+.w140 { width: 140px; }
+.w160 { width: 160px; }
+.w180 { width: 180px; }
+.w185 { width: 185px; }
+.w190 { width: 190px; }
+.w200 { width: 200px; }
+.w300 { width: 300px; }
+.w400 { width: 400px; }
+
+.w72p { width: 72%; }
+.w95p { width: 95%; }
+.w100p { width: 100%; }
+
+.h80 { height: 80px; }
+.h120 { height: 120px; }
+.h150 { height: 150px; }	
+.h200 { height: 200px; }	
+.h250 { height: 250px; }
+.h300 { height: 300px; }							
+
+
+
+
+li#iire-360cities { background-position: 0px 0px; }
+li#iire-43things { background-position: -24px 0px; }
+li#iire-500px { background-position: -48px 0px; }
+li#iire-activerain { background-position: -72px 0px; }
+li#iire-addthis { background-position: -96px 0px; }
+li#iire-badoo { background-position: -120px 0px; }
+li#iire-bebo { background-position: -144px 0px; }	
+li#iire-beatport { background-position: -168px 0px; }
+li#iire-behance { background-position: -192px 0px; }
+li#iire-blinklist { background-position: -216px 0px; }	
+li#iire-bloglovin { background-position: -240px 0px; }	
+li#iire-blogmarks { background-position: -264px 0px; }
+li#iire-blogger { background-position: -288px 0px; }
+li#iire-brightkite { background-position: -312px 0px; }	
+li#iire-buzznet { background-position: -336px 0px; }
+li#iire-cafemom { background-position: -360px 0px; }	
+li#iire-camera { background-position: -384px 0px; }	
+li#iire-cart { background-position: -408px 0px; }	
+li#iire-chat { background-position: -432px 0px; }
+li#iire-contact { background-position: -456px 0px; }
+	
+li#iire-customlink { background-position: 0px -24px; }
+li#iire-delicious { background-position: -24px -24px; }
+li#iire-designbump { background-position: -48px -24px; }
+li#iire-designfloat { background-position: -72px -24px; }
+li#iire-designmoo { background-position: -96px -24px; }
+li#iire-deviantart { background-position: -120px -24px; }			
+li#iire-digg { background-position: -144px -24px; }	
+li#iire-diigo { background-position: -168px -24px; }	
+li#iire-disqus { background-position: -192px -24px; }
+li#iire-dopplr { background-position: -216px -24px; }	
+li#iire-dribbble { background-position: -240px -24px; }
+li#iire-dzone { background-position: -264px -24px; }
+li#iire-email { background-position: -288px -24px; }
+li#iire-email2 { background-position: -312px -24px; }
+li#iire-ember { background-position: -336px -24px; }
+li#iire-etsy { background-position: -360px -24px; }	
+li#iire-evernote { background-position: -384px -24px; }	
+li#iire-facebook { background-position: -408px -24px; }	
+li#iire-favorite1 { background-position: -432px -24px; }	
+li#iire-favorite2 { background-position: -456px -24px; }
+
+li#iire-feedburner { background-position: 0px -48px; }
+li#iire-fineart { background-position: -24px -48px; }			
+li#iire-flickr { background-position: -48px -48px; }	
+li#iire-formspring { background-position: -72px -48px; }	
+li#iire-forrst { background-position: -96px -48px; }
+li#iire-foursquare { background-position: -120px -48px; }	
+li#iire-friendfeed { background-position: -144px -48px; }
+li#iire-friendster { background-position: -168px -48px; }			
+li#iire-geocaching { background-position: -192px -48px; }	
+li#iire-googleplus { background-position: -216px -48px; }
+li#iire-goodreads { background-position: -240px -48px; }		
+li#iire-grooveshark { background-position: -264px -48px; }
+li#iire-hellocotton { background-position: -288px -48px; }			
+li#iire-hi5 { background-position: -312px -48px; }	
+li#iire-icq { background-position: -336px -48px; }
+li#iire-ilike { background-position: -360px -48px; }		
+li#iire-info1 { background-position: -384px -48px; }	
+li#iire-info2 { background-position: -408px -48px; }	
+li#iire-instagram { background-position: -432px -48px; }
+li#iire-lastfm { background-position: -456px -48px; }	
+
+li#iire-linkedin { background-position: 0px -72px; }			
+li#iire-livejournal { background-position: -24px -72px; }	
+li#iire-map { background-position: -48px -72px; }
+li#iire-medium { background-position: -72px -72px; }	
+li#iire-meneame { background-position: -96px -72px; }
+li#iire-meetup { background-position: -120px -72px; }																				
+li#iire-mixcloud { background-position: -144px -72px; }	
+li#iire-mixx { background-position: -168px -72px; }			
+li#iire-multiply { background-position: -192px -72px; }	
+li#iire-music { background-position: -216px -72px; }
+li#iire-mylife { background-position: -240px -72px; }		
+li#iire-myspace { background-position: -264px -72px; }
+li#iire-newsgator { background-position: -288px -72px; }			
+li#iire-newsvine { background-position: -312px -72px; }	
+li#iire-ning { background-position: -336px -72px; }
+li#iire-openid { background-position: -360px -72px; }		
+li#iire-orkut { background-position: -384px -72px; }	
+li#iire-paypal { background-position: -408px -72px; }	
+li#iire-pheed { background-position: -432px -72px; }
+li#iire-picasa { background-position: -456px -72px; }
+
+li#iire-pinterest { background-position: 0px -96px; }			
+li#iire-plurk { background-position: -24px -96px; }	
+li#iire-posterous { background-position: -48px -96px; }
+li#iire-print { background-position: -72px -96px; }	
+li#iire-profile { background-position: -96px -96px; }
+li#iire-purevolume { background-position: -120px -96px; }																				
+li#iire-qik { background-position: -144px -96px; }	
+li#iire-rdio { background-position: -168px -96px; }			
+li#iire-reddit { background-position: -192px -96px; }	
+li#iire-resident { background-position: -216px -96px; }
+li#iire-reverbnation { background-position: -240px -96px; }		
+li#iire-rss { background-position: -264px -96px; }
+li#iire-sharethis { background-position: -288px -96px; }			
+li#iire-skype { background-position: -312px -96px; }	
+li#iire-slashdot { background-position: -336px -96px; }
+li#iire-slideshare { background-position: -360px -96px; }		
+li#iire-smugmug { background-position: -384px -96px; }	
+li#iire-snapjoy { background-position: -408px -96px; }	
+li#iire-soundcloud { background-position: -432px -96px; }
+li#iire-spurl { background-position: -456px -96px; }
+
+li#iire-spotify { background-position: 0px -120px; }			
+li#iire-squidoo { background-position: -24px -120px; }	
+li#iire-stackoverflow { background-position: -48px -120px; }
+li#iire-steam { background-position: -72px -120px; }	
+li#iire-stumbleupon { background-position: -96px -120px; }
+li#iire-tagged { background-position: -120px -120px; }																				
+li#iire-technorati { background-position: -144px -120px; }	
+li#iire-thumb { background-position: -168px -120px; }			
+li#iire-tumblr { background-position: -192px -120px; }	
+li#iire-twitter { background-position: -216px -120px; }
+li#iire-viddler { background-position: -240px -120px; }		
+li#iire-vimeo { background-position: -264px -120px; }
+li#iire-virb { background-position: -288px -120px; }			
+li#iire-website { background-position: -312px -120px; }	
+li#iire-wikio { background-position: -336px -120px; }
+li#iire-wordpress { background-position: -360px -120px; }		
+li#iire-xanga { background-position: -384px -120px; }	
+li#iire-xing { background-position: -408px -120px; }	
+li#iire-yammer { background-position: -432px -120px; }
+li#iire-yelp { background-position: -456px -120px; }
+
+li#iire-youtube { background-position: 0px -144px; }			
+li#iire-ziki { background-position: -24px -144px; }	
+li#iire-zorpia { background-position: -48px -144px; }
+li#iire-aboutme { background-position: -72px -144px; }	
+li#iire-bandcamp { background-position: -96px -144px; }
+li#iire-github { background-position: -120px -144px; }																				
+li#iire-hyves { background-position: -144px -144px; }
+li#iire-bandmix { background-position: -168px -144px; }			
+li#iire-cdbaby { background-position: -192px -144px; }	
+li#iire-sonicbids { background-position: -216px -144px; }
+li#iire-tripadvisor { background-position: -240px -144px; }
+li#iire-zune { background-position: -264px -144px; }
+li#iire-amazon { background-position: -288px -144px; }
+li#iire-itunes { background-position: -312px -144px; }	
+li#iire-blank { background-position: -408px -144px; }	
+li#iire-blank2 { background-position: -432px -144px; }
+li#iire-blank3 { background-position: -456px -144px; }
+
+
+
+div#iire_social_panel_tab {
+	position:fixed;
+	top:120px;
+	right: 270px;
+	width: 20px;
+	height: 40px;
+	padding:0px;
+	z-index:9999;		
+	display:block;
+	background:#21759B;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;		
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-top-left-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	cursor:pointer;		
+}
+
+div#iire_social_panel_tab span {
+	padding:0px;
+	margin:0px;
+	line-height:5px;
+	position:absolute;
+	top:15px;
+	left:5px;
+	width: 10px;
+	height: 10px;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;			
+}
+	
+div#iire_social_panel_tab span:hover {
+	color:#CCCCCC;
+}	
+
+div#iire_social_panel_right {
+	position:fixed;
+	top:25px;
+	right: 0px;
+	width: 250px;
+	height: 100%;
+	padding:0px 10px;
+	z-index:9999;		
+	display:block;
+	background:#ECECEC;
+	border-left:#CCCCCC 1px solid;
+}
+	
+div#iire_social_panel_right p { margin:1px; font-size:12px; color:#999999; }
+
+h3 span.instructions { color:#999; font-weight:normal; font-size:11px; }	
+h3.panel_active { background:#21759B; color:#FFFFFF; font-weight:bold; }
+h3.panel_active a, h3.panel_active a:link, h3.panel_active a:visited   { background:#21759B; color:#FFFFFF; font-weight:bold; }
+
+div#iire_social_panel_right p label { display:inline-block; width:110px; }
+div#iire_social_panel_right p label.w80 { display:inline-block; width:80px; }		
+
+div.iire_social_widget, div.iire_social_shortcode { position: relative; }			
+div.iire_social_widget p, div.iire_social_shortcode p  { padding-bottom: 4px; font-family: helvetica, san-serif; font-size:12px; font-weight:bold; }	
+	
+div#iire_social_widget div.move, div#iire_social_shortcode div.move { cursor:move; }	
+	
+.horizontal { float:left; margin:0px 0px 0px 0px; }
+.vertical { float:none; margin:0px 0px 5px 0px; }
+
+.horizontal.alignleft { float:left; text-align:left; }	
+.horizontal.alignright{ float:right; text-align:right; }		
+	
+.sp0 { margin:0px 0px 0px 0px; }
+.sp1 { margin:0px 1px 1px 0px; }
+.sp2 { margin:0px 2px 2px 0px; }
+.sp3 { margin:0px 3px 3px 0px; }
+.sp4 { margin:0px 4px 4px 0px; }
+.sp5 { margin:0px 5px 5px 0px; }
+.sp6 { margin:0px 6px 6px 0px; }
+.sp7 { margin:0px 7px 7px 0px; }
+.sp8 { margin:0px 8px 8px 0px; }
+.sp9 { margin:0px 9px 9px 0px; }
+.sp10 { margin:0px 10px 10px 0px; }
+.sp11 { margin:0px 11px 11px 0px; }
+.sp12 { margin:0px 12px 12px 0px; }
+.sp13 { margin:0px 13px 13px 0px; }
+.sp14 { margin:0px 14px 14px 0px; }
+.sp15 { margin:0px 15px 15px 0px; }
+.sp16 { margin:0px 16px 16px 0px; }
+.sp17 { margin:0px 17px 17px 0px; }
+.sp18 { margin:0px 18px 18px 0px; }
+.sp19 { margin:0px 19px 19px 0px; }	
+.sp20 { margin:0px 20px 20px 0px; }
+.sp21 { margin:0px 21px 21px 0px; }	
+.sp22 { margin:0px 22px 22px 0px; }	
+.sp23 { margin:0px 23px 23px 0px; }	
+.sp24 { margin:0px 24px 24px 0px; }	
+.sp25 { margin:0px 25px 25px 0px; }	

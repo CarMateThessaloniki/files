@@ -1,0 +1,9 @@
+ul#bpmh-bookmark-list{
+	min-height:150px;
+	overflow-y:auto;
+	list-style:url( ../images/star.gif );
+}
+
+ul#bpmh-bookmark-list li {
+	margin-left:2em;
+}

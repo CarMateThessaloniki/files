@@ -1,0 +1,44 @@
+body.my-home #item-body > h3 {
+	display:none;
+}
+
+body.my-home #item-body form ul li {
+	list-style:none;
+	margin:0;
+}
+
+.icon-bookmark,.icon-rss {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/sprites.png);
+	background-repeat: no-repeat;
+}
+.icon-bookmark {
+	background-position: 0 0;
+}
+.icon-rss {
+	background-position: -32px 0;
+}
+
+a.bpmh-add-bkmk, a.bpmh-add-bkmk:hover,
+.entry-content a.bpmh-add-bkmk, .entry-content a.bpmh-add-bkmk:hover,
+a.bpmh-add-rss, a.bpmh-add-rss:hover,
+.entry-content a.bpmh-add-rss, .entry-content a.bpmh-add-rss:hover {
+	text-decoration:none;
+	color:#555;
+}
+
+.bpmh-message {
+	display:inline-block;
+	height:16px;
+}
+
+a.bpmh-add-bkmk.loading .bpmh-message, a.bpmh-add-rss.loading .bpmh-message {
+	padding-left:20px;
+	background:url(../images/ajax-loader.gif) no-repeat;
+}
+
+body.my-home #bpmh-user-widgets a{
+	color:#555;
+}

@@ -1,0 +1,17 @@
+#notepad-content .bpmh-notepad-text{
+	width:98%;
+	min-height:200px;
+	font-size: 11px;
+	font-weight: normal;
+	background: #FFF9DB;
+	border-bottom: 1px solid #FFE8C4;
+	border-right: 1px solid #FFE8C4;
+	color: #555;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+#notepad-content textarea{
+	background-color:#FFF9DB;
+	color:#555;
+}

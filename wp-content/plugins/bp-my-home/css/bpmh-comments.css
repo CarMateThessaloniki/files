@@ -1,0 +1,68 @@
+#bpmh-table-comments tr{
+	border-bottom:dashed 1px #ccc;
+	line-height:10px;
+}
+#bpmh-table-comments td{
+	padding:2px;
+	min-width:25px;
+	font-size:10px;
+	border:none;
+}
+
+#blog_selector{
+	text-align:right;
+	border-bottom:solid 1px #CCC;
+}
+
+#the_blog_id {
+	width:40%;
+}
+
+#bpmh-comments-list {
+	position: relative;
+	height:150px;
+	overflow-y:auto;
+}
+
+#bpmh-comments-list span.loading {
+	display:block;
+	margin-top:1.8em;
+	padding-left:20px;
+	background:url(../images/ajax-loader.gif) no-repeat;
+}
+
+.bpmh-comments-view,
+.bpmh-comments-count,
+.bpmh-comments-followup,
+.bpmh-comments-published,
+.bpmh-comments-awaiting {
+	text-indent:-5000px;
+	display:inline-block;
+	height:18px;
+	width:18px;
+	vertical-align:middle;
+	
+}
+.bpmh-comments-view {
+	background:url(../images/comment-preview.gif) no-repeat;
+}
+
+.bpmh-comments-count {
+	background:url(../images/comments.gif) no-repeat;
+}
+
+.bpmh-comments-followup {
+	background:url(../images/followups.gif) no-repeat;
+}
+
+.bpmh-comments-published {
+	background:url(../images/published.gif) no-repeat;
+}
+
+.bpmh-comments-awaiting {
+	background:url(../images/moderated.gif) no-repeat;
+}
+
+tr.bpmh-comment-content {
+	display:none;
+}

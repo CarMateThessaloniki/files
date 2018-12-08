@@ -1,0 +1,94 @@
+@import "progress.scss";
+@import "fonts.scss";
+
+.defaultRole{
+  background-color: #ececec;
+  &.alternate{
+    background-color: #ddd;
+  }
+}
+
+.capabilitiesBlock input[type="checkbox"]{
+  margin-right: 10px;
+
+  &.disabled{
+    cursor: default;
+  }
+}
+.defaultCaps,
+.otherCaps {
+  background: #fcfcfc;
+  padding: 12px;
+  margin: 12px auto;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+
+  h4{
+    margin-top: 0;
+  }
+  ul{
+    float: none;
+    display: inline-block;
+    width: 100%;
+
+    li{
+      width: 25%;
+      float: left;
+    }
+  }
+}
+.customCap{
+  background: #ececec;
+  padding: 12px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+
+.migrate_to{
+  text-align: center;
+}
+
+.capLabel{
+  position: relative;
+
+  &.disabled{
+    cursor: default;
+  }
+}
+.capLabel.loading{
+  input{
+    visibility: hidden;
+  }
+  .spinner{
+    display: block;
+    position: absolute;
+    top: -1px;
+    margin: 0px;
+    left: -2px;
+  }
+}
+
+#poststuff #submitdiv .inside,
+#poststuff #cleanUpdiv .inside,
+#poststuff #migratediv .inside,
+#poststuff #donate .inside,{
+  padding: 0;
+  margin: 0;
+}
+
+.dd-sidebar .postbox .hndle {
+  cursor: default;
+}
+
+#donate h3 {
+  &:before{
+    font-family: 'custom_dashicons';
+    content: "\e605";
+    float: left;
+    margin: 1px 3px 0 0;
+  }
+}
